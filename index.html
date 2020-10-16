@@ -32,10 +32,12 @@
 	</ul>
 </nav>
  <div class="container-fluid">
-        <div class="row " id="modelocero">
+        <div class="row " id="arquitectura">
             <div class="col-3 text-center">
                 <h1>Modelo cero y codigo spaguetti</h1>
-                <p>Soluciones iniciales cliente/servidor en las que tenemos
+<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSpagetti.png" alt="" class="img-fluid mx-auto d-block">
+
+<p style="text-align: justify;">Soluciones iniciales cliente/servidor en las que tenemos
 una página JSP/ASP/PHP que se conecta a una base de
 datos y genera un nuevo contenido html. Es código
 spaguetti, el que nadie quiere tener que pero que en su
@@ -48,11 +50,125 @@ capacidad de reutilización.
               
 
             </div>
+           
+               <div class="col-3 text-center">
+                <h1>El modelo 1</h1>
+<img src=https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModelo1-2.png" alt="" class="img-fluid mx-auto d-block">  
+
+<p style="text-align: justify;">Este fue un salto importante , promueve la modularización
+y el uso de componentes a través de la programación
+orientada a objeto. Fue desde mi punto de vista un gran
+salto. Hay enfoques tipo Rails que se apoyaron más en un
+patrón tipo Active Record y otros en Servicios y
+Repositorios como Spring. La clave fundamental es
+generar componentes en la capa de backend y aumentar la
+reutilización de esa parte.
+</p>
+            
+
+            </div> 
+
             <div class="col-3 text-center">
-                <img src="https://www.sociedadcirugiaocular.com/images/img-coronavirus-covid19.jpg" alt="" class="img-fluid mx-auto d-block">
-            </div>
+                <h1>El modelo 2(MVC)</h1>
+<img src=https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModelo2-2.png" alt="" class="img-fluid mx-auto d-block">  
+                
+<p style="text-align: justify;">Quizás para mucha gente el modelo más importante, se
+apuesta por la separación de responsabilidades entre
+Vista, Controlador y Modelo. Prácticamente todos los
+frameworks web han implementado este enfoque de una
+forma u otra. Ejemplos son: Struts en Java , ASP.NET en
+Microsoft o Laravel en PHP.
+</p>
+            
+
+            </div> 
         </div>
     </div>
 
+    <div class="container-fluid">
+    	<div class="row" id="arquitectura1">
+    		<div class="col-3 text-center">
+    			<h1>El modelo FrontController/Enrutador</h1>
+    			<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModeloMVC2-1.png" alt="" class="img-fluid mx-auto d-block">
+    			<p style="text-align: justify;">Una evolución importante del modelo MVC fue el modelo
+MVC 2 o de FrontController que apuesta por una
+arquitectura en la que únicamente hay un controlador
+principal y gestiona todo a través de acciones. Esta es un
+poco la idea de muchos de los frameworks modernos con
+el concepto de router en la capa de presentación. El
+enfoque más clásico puede ser Struts en el lado del
+servidor o Spring MVC.
+</p>
+    		</div>
+
+    		<div class="col-3 text-center">
+    			<h1>Arquitectura web y ajax</h1>
+    			<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebAjax-1.png" alt="" class="img-fluid mx-auto d-block">
+    			<p style="text-align: justify;">Hasta ese momento todas las evoluciones se produjeron
+del lado del servidor. El lado cliente tenía pocas
+novedades. Es en esta situación cuando surge AJAX como
+tecnología para mejorar el rendimiento entre cliente y
+servidor. Esto supuso una verdadera revolución a la forma
+de programar.
+
+</p>
+    		</div>
+
+    		<div class="col-3 text-center">
+    			<h1>Arquitectura web y SPA</h1>
+    			<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSPASimple.png" alt="" class="img-fluid mx-auto d-block">
+    			<p style="text-align: justify;">Con la llegada del mundo móvil y la necesidad de tener las
+aplicaciones web cada vez más desconectadas surgen las
+arquitecturas SPA (Simple Page Application) . Su propuesta
+principal es dar mayor responsabilidad al navegador y que
+el se encargue de cargar las vistas y datos utilizando AJAX
+
+</p>
+    		</div>
+
+    		
+    	</div>
+    </div>
+
+<div class="container-fluid">
+	<div class="row" id="arquitectura2">
+		<div class="col-3 text-center">
+			<h1>Arquitectura SPA MVC</h1>
+    			<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSPA2.png" alt="" class="img-fluid mx-auto d-block">
+    			<p style="text-align: justify;">Poco a poco el lado cliente comienza a tener más peso en
+los desarrollos y se necesita organizar mejor el código de
+JavaScript . Aparecen los primeros frameworks MVC de
+cliente como Backbone.js que permiten dividir las
+responsabilidades de la misma forma que en el servidor.
+</p>
+		</div>
+<div class="col-3 text-center">
+		<h1>SPA MVC y uso de componentes</h1>
+    			<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSPAComponentes-2.png" alt="" class="img-fluid mx-auto d-block">
+    			<p style="text-align: justify;">Estas arquitecturas empiezan a madurar rápidamente y
+aparecen tecnologías como Angular.js que promueve el
+uso del modelo MVC y la utilización de componentes en
+capa de presentación . Aparecen librerías
+complementarias como React que se centran en estos
+últimos.
+
+</p>
+		</div>
+		<div class="col-3 text-center">
+		<h1>Arquitectura web isomorficas</h1>
+    			<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebIsomorfica.png" alt="" class="img-fluid mx-auto d-block">
+    			<p style="text-align: justify;">Ahora mismo estamos entrando en otra fase , comienza a
+llegar el JavaScript Isomórfico . Si nos fijamos en el último
+diagrama la parte cliente y la parte servidor son muy
+parecidas. ¿Qué sucedería en el caso de que ambas partes
+estuvieran implementadas en JavaScript? . Pues que
+probablemente mucho código se podría compartir y según
+se ejecutara la aplicación en cliente o en servidor el
+comportamiento variaría.
+
+</p>
+		</div>
+	</div>
+</div>
 </body>
 </html>
