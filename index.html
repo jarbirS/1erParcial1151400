@@ -21,18 +21,31 @@
 <h1 >Arquitecturas web</h1>
 </div>
 </div>
-<nav class="navbar" style="background-color: #FF0000">
-	<ul>
-		<li><a href="index.html">Inicio</a></li>
-		<li><a href="covid.html">Arquitecturas</a></li>
-		<li><a href="sintomas.html">Tecnologias</a></li>
-		<li><a href="sintomas.html">Contactanos</a></li>
-		
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FF0000">
 
-	</ul>
-</nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#arquitecturas">arquitecturas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tecnologías">tecnologias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contactanos">contactanos</a>
+                </li>
+                
+            </ul>
+        </div>
+    </nav>
  <div class="container-fluid">
-        <div class="row " id="arquitectura">
+        <div class="row " id="arquitecturas">
             <div class="col-3 text-center">
                 <h1>Modelo cero y codigo spaguetti</h1>
 <img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSpagetti.png" alt="" class="img-fluid mx-auto d-block">
@@ -86,7 +99,7 @@ Microsoft o Laravel en PHP.
     </div>
 
     <div class="container-fluid">
-    	<div class="row" id="arquitectura1">
+    	<div class="row" id="arquitecturas">
     		<div class="col-3 text-center">
     			<h1>El modelo FrontController/Enrutador</h1>
     			<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebModeloMVC2-1.png" alt="" class="img-fluid mx-auto d-block">
@@ -131,7 +144,7 @@ el se encargue de cargar las vistas y datos utilizando AJAX
     </div>
 
 <div class="container-fluid">
-	<div class="row" id="arquitectura2">
+	<div class="row" id="arquitecturas">
 		<div class="col-3 text-center">
 			<h1>Arquitectura SPA MVC</h1>
     			<img src="https://www.arquitecturajava.com/wp-content/uploads/ArquitecturasWebSPA2.png" alt="" class="img-fluid mx-auto d-block">
@@ -196,7 +209,7 @@ todo porque tienen una gran comunidad que los respalda.</p>
 </div>
 
 <div class="container-fluid">
-	<div class="row align-items-center" id="tecnologías2">
+	<div class="row align-items-center" id="tecnologías">
 	<div class="col-md-6">
 		<h1>FRONTEND</h1>
 	 <img  src = " https://gointeraction.biz/wp-content/uploads/2015/07/logosLenguajes.png " alt = "" class = " img-fluid mx-auto d-block " >
@@ -227,26 +240,143 @@ PostCSS son algunos de ellos.</p>
 </div>
 
 <div  class = " col-md-6 " >
-	<form>
+	<form  id=contactanos>
 		<h1>FORMULARIO DE CONTACTO</h1>
-		<label>Nombre:</label>
+		<label>Nombre</label>
 		<input type="text" name="Nombre">
 <br>
-<label>Email:</label>
+<label>Email</label>
 		<input type="Email" name="Email">
 		<br>
 
-		<label>Telefono:</label>
+		<label>Telefon:</label>
 		<input type="text" name="telefono">
 
 	<br>
 
-	<textarea>Asunto:</textarea>
+	<textarea>Asunto</textarea>
+	
 	
 	<input type="submit" value="Enviar">
 	
 	</form>
                
             </div >
+
+            <footer class="page-footer font-small pt-4 mt-2" style="background-color: #FF0000">
+
+        
+        <div class="container-fluid text-center text-md-left">
+
+           
+            <div class="row">
+
+                <div class="col-md-3 mt-md-0 mt-3">
+
+                 
+                    <h5 class="text-uppercase">Enlaces cursos</h5>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.w3schools.com/"> <u>W3schools</u></a>
+                        </li>
+                        <li>
+                            <a href="https://www.tutorialspoint.com/index.htm"><u>Tutorialpoints</u></a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+                
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+               
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                    <h5 class="text-uppercase">Enlaces Entidades</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.who.int/es/emergencies/diseases/novel-coronavirus-2019/advice-for-public/q-a-coronaviruses"><u>W3C</u></a>
+                        </li>
+                        <li>
+                            <a href="https://coronavirus.app/map"><u>IETF</u></a>
+                        </li>
+                        <li>
+                            <a href="https://www.mayoclinic.org/es-es/diseases-conditions/coronavirus/symptoms-causes/syc-20479963"><u>Internet Society</u></a>
+                        </li>
+                        <li>
+                            <a href="https://www.un.org/es/coronavirus"><u>ICANN</u></a>
+                        </li>
+                    </ul>
+
+                </div>
+                
+                <div class="col-md-6 mb-md-0 mb-3 text-center">
+
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Contacto</h5>
+
+                    <p>Email: jarbirstewartmr@ufps.edu.co</p>
+                    <p>Cel: 3134268142</p>
+
+                </div>
+               
+
+            </div>
+           
+
+        </div>
+        
+
+        
+        <div class="footer-copyright text-center py-3">2020 © All Rights Reserved. Desarrollado por Jarbir Stewart Mejia Rojas
+        </div>
+       
+
+    </footer>
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+ <script type="text/javascript">
+ 	
+ 	document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("contactanos").addEventListener('Enviar', validarFormulario); 
+});
+
+function validarFormulario(evento) {
+  evento.preventDefault();
+  var nombre = document.getElementById('Nombre').value;
+  if(nombre.length == 0) {
+    alert('No has escrito nada en el usuario');
+    return;
+  }
+
+  var email = document.getElementById('Email').value;
+  if(email.length == 0) {
+    alert('No has escrito nada en el usuario');
+    return;
+  }
+
+  var telefono = document.getElementById('Telefono').value;
+  if(telefono.length == 0) {
+    alert('No has escrito nada en el usuario');
+    return;
+  }
+
+var textarea  = document.getElementById('Asunto').value;
+  if(textarea.length == 0) {
+    alert('No has escrito nada en el usuario');
+    return;
+  }
+
+  
+  this.Enviar();
+}
+ </script>
+
 </body>
 </html>
