@@ -45,3 +45,8 @@ nav ul li a{
 
 	color: #fff;
 }
+
+.col-md-6 img{
+	width: 250px;
+	height: 250px;
+}
